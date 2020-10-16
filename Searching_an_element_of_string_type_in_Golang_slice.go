@@ -9,12 +9,12 @@ import (
 func main() { 
    
     slice_1 := []string{"C", "Go", "Java", "C#", "Ruby"} 
-    slice_2 := []string{"GEEKs", "123geeks", "gfg", "GeeksforGeeks"} 
+    slice_2 := []string{"Golang", "123abc", "gingonics", "GoProgramming"} 
   
     var f1, f2, f3 string 
-    f1 = "GEEKs"
+    f1 = "Golang"
     f2 = "C"
-    f3 = "gfg"
+    f3 = "gingonics"
   
     sort.Strings(slice_1) 
     sort.Strings(slice_2) 
