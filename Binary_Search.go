@@ -8,7 +8,6 @@ func main() {
 	arr := [10]int{1, 5, 100, 0, -100, 15, 4, 102, 30, 1000}
 	fmt.Println(arr)
 
-	// Sort the numbers
 	tmp := 0
 	for i := 0; i < len(arr); i++ {
 		for j := 0; j < len(arr)-1; j++ {
@@ -30,9 +29,6 @@ func main() {
 		return
 	}
 
-	// Find the number by looking at the center of the array, choosing
-	// the left or right side depending on the value and then continue
-	// to halve until the result has been found.
 	for left <= right {
 		mid := (left + right) / 2
 
