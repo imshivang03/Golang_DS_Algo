@@ -1,2 +1,2 @@
-# Golang DS & Algorithms
+# Golang DS & Algorithm
 
